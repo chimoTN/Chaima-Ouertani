@@ -81,6 +81,17 @@
 
 }
 
+@media screen and (max-width: 1500px){
+
+	.reseauxFooter {
+		margin-top: 288;
+		margin-left: 45%;
+	}
+
+
+}
+
+
 @media screen and (max-width: 400px){
 	
 	.footer{
