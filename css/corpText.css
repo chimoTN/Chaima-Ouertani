@@ -8,6 +8,20 @@ body{
 	
 }
 
+/* box none mobile*/
+
+.box_none_mobile{
+	width: 0% ;
+	height: 0% ;
+	background-color: #1f255e;
+
+}
+
+.msg_none_mobile{
+	color: rgba(255, 255, 255, 0);
+	size: 30px;
+}
+
 
 /* -------------le slider d'image------------------*/
 .slider {
@@ -482,8 +496,25 @@ body{
 	}
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 600px){
 
+	.box_none_mobile{
+		width: 100% ;
+		height: 100% ;
+		background-color: #1f255e;
+	    z-index: 4000;
+    	position: fixed;
+	}
+
+	.msg_none_mobile{
+		color: #fff;
+		size: 30px;
+		margin: 10%;
+		font-size: xx-large;
+		margin-top: 30%;
+	}
+
+	/*
 	.Small_Void_Space_Viewport{
         height: 50px;
         width: 100%;
@@ -581,4 +612,6 @@ body{
 		width: 20;
 		margin-bottom: 2px;
 	}
+
+	*/
 }
